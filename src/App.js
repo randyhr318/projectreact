@@ -4,7 +4,7 @@ function App(){
 
  const [isRed, setRed] = useState(false);
  const [count, setCount] = useState(0);
-//Line 12 is rendering component
+
 
 const increment = () => {
   setCount(count + 1);
